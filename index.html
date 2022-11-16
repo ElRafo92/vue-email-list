@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- VUE JS  -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- VUE JS  -->
+    <!-- AXIOS -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- AXIOS -->
+</head>
+<body>
+    <div class="container" id="app">
+        <h2>MAIL LIST</h2>
+        <ul>
+            <li v-for="mail in mails"><a href="">{{mail}}</a></li>
+        </ul>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
