@@ -15,7 +15,7 @@
 <body>
     <div class="container" id="app">
         <h2>MAIL LIST</h2>
-        <ul>
+        <ul v-if="mails.length === 10">
             <li v-for="mail in mails"><a href="">{{mail}}</a></li>
         </ul>
     </div>
